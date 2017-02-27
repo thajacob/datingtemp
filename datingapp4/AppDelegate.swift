@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  datingapp4
+//  Dating App
 //
-//  Created by jakub skrzypczynski on 13/12/2016.
+//  Created by jakub skrzypczynski on 09/11/2016.
 //  Copyright © 2016 test project. All rights reserved.
 //
 
@@ -35,6 +35,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    }
+    func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
+        
     }
 
     func applicationWillTerminate(_ application: UIApplication) {

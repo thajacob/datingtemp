@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B0C627E1E00947A000746E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C627D1E00947A000746E9 /* AppDelegate.swift */; };
-		4B0C62801E00947A000746E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C627F1E00947A000746E9 /* ViewController.swift */; };
-		4B0C62831E00947A000746E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0C62811E00947A000746E9 /* Main.storyboard */; };
 		4B0C62851E00947A000746E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0C62841E00947A000746E9 /* Assets.xcassets */; };
 		4B0C62881E00947B000746E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0C62861E00947B000746E9 /* LaunchScreen.storyboard */; };
+		4B0C62931E0094BB000746E9 /* Browsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C62901E0094BB000746E9 /* Browsing.swift */; };
+		4B0C62941E0094BB000746E9 /* Profile set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C62911E0094BB000746E9 /* Profile set.swift */; };
+		4B0C62951E0094BB000746E9 /* User Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C62921E0094BB000746E9 /* User Preference.swift */; };
+		4B0C629A1E0094D1000746E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C62981E0094D1000746E9 /* AppDelegate.swift */; };
+		4B0C629D1E0094E9000746E9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B0C629C1E0094E9000746E9 /* Info.plist */; };
+		4B0C629F1E009E71000746E9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C629E1E009E71000746E9 /* ViewController2.swift */; };
+		4B0C62A11E016303000746E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0C62A01E016303000746E9 /* Main.storyboard */; };
+		4B0C62A71E0166A1000746E9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C62A61E0166A1000746E9 /* Profile.swift */; };
+		4B0C62A91E0318A9000746E9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C62A81E0318A9000746E9 /* LoginVC.swift */; };
+		4B0C62AB1E0318B5000746E9 /* DataEntryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C62AA1E0318B5000746E9 /* DataEntryTextField.swift */; };
+		4B0C62AD1E0318BC000746E9 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C62AC1E0318BC000746E9 /* LoginButton.swift */; };
+		4B0C62AF1E0318C4000746E9 /* FlashingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C62AE1E0318C4000746E9 /* FlashingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B0C627A1E00947A000746E9 /* datingapp4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datingapp4.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B0C627D1E00947A000746E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B0C627F1E00947A000746E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B0C62821E00947A000746E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B0C62841E00947A000746E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B0C62871E00947B000746E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4B0C62891E00947B000746E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B0C628F1E0094BB000746E9 /* datingapp4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "datingapp4-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B0C62901E0094BB000746E9 /* Browsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Browsing.swift; sourceTree = "<group>"; };
+		4B0C62911E0094BB000746E9 /* Profile set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Profile set.swift"; sourceTree = "<group>"; };
+		4B0C62921E0094BB000746E9 /* User Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User Preference.swift"; sourceTree = "<group>"; };
+		4B0C62981E0094D1000746E9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B0C629C1E0094E9000746E9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B0C629E1E009E71000746E9 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		4B0C62A01E016303000746E9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B0C62A61E0166A1000746E9 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		4B0C62A81E0318A9000746E9 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		4B0C62AA1E0318B5000746E9 /* DataEntryTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEntryTextField.swift; sourceTree = "<group>"; };
+		4B0C62AC1E0318BC000746E9 /* LoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		4B0C62AE1E0318C4000746E9 /* FlashingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashingLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +72,21 @@
 		4B0C627C1E00947A000746E9 /* datingapp4 */ = {
 			isa = PBXGroup;
 			children = (
-				4B0C627D1E00947A000746E9 /* AppDelegate.swift */,
-				4B0C627F1E00947A000746E9 /* ViewController.swift */,
-				4B0C62811E00947A000746E9 /* Main.storyboard */,
+				4B0C62981E0094D1000746E9 /* AppDelegate.swift */,
+				4B0C62AC1E0318BC000746E9 /* LoginButton.swift */,
+				4B0C62A81E0318A9000746E9 /* LoginVC.swift */,
+				4B0C62AE1E0318C4000746E9 /* FlashingLabel.swift */,
+				4B0C62AA1E0318B5000746E9 /* DataEntryTextField.swift */,
+				4B0C629E1E009E71000746E9 /* ViewController2.swift */,
+				4B0C62901E0094BB000746E9 /* Browsing.swift */,
+				4B0C62911E0094BB000746E9 /* Profile set.swift */,
+				4B0C62921E0094BB000746E9 /* User Preference.swift */,
+				4B0C62A01E016303000746E9 /* Main.storyboard */,
+				4B0C62A61E0166A1000746E9 /* Profile.swift */,
 				4B0C62841E00947A000746E9 /* Assets.xcassets */,
 				4B0C62861E00947B000746E9 /* LaunchScreen.storyboard */,
-				4B0C62891E00947B000746E9 /* Info.plist */,
+				4B0C629C1E0094E9000746E9 /* Info.plist */,
+				4B0C628F1E0094BB000746E9 /* datingapp4-Bridging-Header.h */,
 			);
 			path = datingapp4;
 			sourceTree = "<group>";
@@ -96,6 +123,8 @@
 				TargetAttributes = {
 					4B0C62791E00947A000746E9 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98SY24H39Z;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +152,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0C629D1E0094E9000746E9 /* Info.plist in Resources */,
 				4B0C62881E00947B000746E9 /* LaunchScreen.storyboard in Resources */,
 				4B0C62851E00947A000746E9 /* Assets.xcassets in Resources */,
-				4B0C62831E00947A000746E9 /* Main.storyboard in Resources */,
+				4B0C62A11E016303000746E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +166,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B0C62801E00947A000746E9 /* ViewController.swift in Sources */,
-				4B0C627E1E00947A000746E9 /* AppDelegate.swift in Sources */,
+				4B0C62AB1E0318B5000746E9 /* DataEntryTextField.swift in Sources */,
+				4B0C62AD1E0318BC000746E9 /* LoginButton.swift in Sources */,
+				4B0C62AF1E0318C4000746E9 /* FlashingLabel.swift in Sources */,
+				4B0C629F1E009E71000746E9 /* ViewController2.swift in Sources */,
+				4B0C62A71E0166A1000746E9 /* Profile.swift in Sources */,
+				4B0C62A91E0318A9000746E9 /* LoginVC.swift in Sources */,
+				4B0C629A1E0094D1000746E9 /* AppDelegate.swift in Sources */,
+				4B0C62951E0094BB000746E9 /* User Preference.swift in Sources */,
+				4B0C62931E0094BB000746E9 /* Browsing.swift in Sources */,
+				4B0C62941E0094BB000746E9 /* Profile set.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B0C62811E00947A000746E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B0C62821E00947A000746E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B0C62861E00947B000746E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -258,10 +288,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 98SY24H39Z;
 				INFOPLIST_FILE = datingapp4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jacob-skrzypczynski.datingapp4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "datingapp4/datingapp4-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,10 +304,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 98SY24H39Z;
 				INFOPLIST_FILE = datingapp4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jacob-skrzypczynski.datingapp4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "datingapp4/datingapp4-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +334,7 @@
 				4B0C628E1E00947B000746E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
